@@ -32,6 +32,8 @@ A publicly exposed Azure Virtual Machine was intentionally configured with **all
 4. Microsoft Sentinel connected to the workspace  
 5. KQL queries used for log analysis
 
+Check the `/architecture` folder for more detailed configuration
+
 📷 *(Architecture diagram available in `/architecture` folder)*
 
 ---
