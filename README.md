@@ -1,4 +1,5 @@
 # Azure Honeypot using Microsoft Sentinel (SIEM)
+![Azure Honeypot](/Architecture/)
 
 ## ◽Project Overview
 This project demonstrates the design and deployment of a **cloud-based honeypot on Microsoft Azure** to simulate real-world cyber attacks and analyze them using **Azure Log Analytics** and **Microsoft Sentinel (SIEM)**.
