@@ -85,7 +85,8 @@ Microsoft Sentinel uses **data connectors** to ingest logs from supported source
    - Click Install
    - After installing, click Manage and select the appropriate Connector( Choose Windows Security Events via AMA for Security Events)
    - Then Create a DCR(Data Collection Rule)
-For Example if we want to ingest Security logs of windows follow the below steps
+
+**For Example if we want to ingest Security logs of windows follow the below steps**
    - Go to the defender portal
    - Microsoft sentinel → Content Management → Content Hub
    - Search for Security Events, Select it and click install
