@@ -80,12 +80,18 @@ This enables Sentinel (SIEM) in your workspace.
 Microsoft Sentinel uses **data connectors** to ingest logs from supported sources.
 
 1. In Sentinel → **Content Management → Content Hub**  
-2. For each relevant source (e.g., Azure Activity, Security events):
+2. For each relevant source (e.g., Azure Activity, Security events(This is for collecting windows security events):
    - Select the connector
    - Click Install
    - After installing, click Manage and select the appropriate Connector( Choose Windows Security Events via AMA for Security Events)
    - Then Create a DCR(Data Collection Rule)
-
+For Example if we want to ingest Security logs of windows follow the below steps
+   - Go to the defender portal
+   - Microsoft sentinel → Content Management → Content Hub
+   - Search for Security Events, Select it and click install
+   - After that select manage and Windows Security Events via AMA
+   - Create a DCR(Data collection Rule) and select the required values
+       
 Sentinel supports many connectors, including Syslog, CEF, and application logs. 
 
 ---
